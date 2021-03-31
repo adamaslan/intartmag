@@ -5,6 +5,8 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 .jumbotron {
   background-image: url("oldpaper3-12-2020.jpg");
