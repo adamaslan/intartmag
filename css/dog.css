@@ -4,9 +4,9 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  /* margin-bottom: 60px; */
+  /* margin-left: 3rem; */
+  /* margin-right: 3rem; */
 }
 .jumbotron {
   background-image: url("oldpaper3-12-2020.jpg");
@@ -173,4 +173,16 @@ footer .container-fluid p {
 .bg-primary {
   background-color: #0000 !important;
   background-image: url("oldpaper4-12-2020.jpg");
+}
+
+.section {
+  background-color: yellow;
+  margin-right: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.section img {
+  width: 100%;
+  height: auto;
 }
