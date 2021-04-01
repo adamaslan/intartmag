@@ -15,6 +15,11 @@
     />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+    
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
@@ -50,29 +55,22 @@
     </script>
     <link rel="stylesheet" href="dog1.css" />
 
-    <nav class="navbar sticky-top navbar-light bg-light">
+    <nav id="foo" class="navbar fixed-top navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Sticky top</a>
       <ul class="nav navbar-nav">
-				<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Home</a></li>   
     </nav>
 
   </head>
   <body>
     <img src="IAM-logo.jpg" width="75% height="75% " >
 
-    <script>
-      $(function () {
-        $(document).scroll(function () {
-          var $nav = $(".navbar-fixed-top");
-          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-        });
-      });
-    </script>
+  
 
     <br />
 
     -----------------------------------------------------------------
-    <br />Show Review: Fogo! Group Exhibition at SoMad <br />
+    <br /><h1 class="fun">Show Review: Fogo! Group Exhibition at SoMad</h1> <br />
 
     <br />
     <img src="jamie1.jpg" width="75% height="75% " >
@@ -154,5 +152,14 @@
     SoMad is located at 34 East 23rd Street, 4th Floor New York, New York 10010
     <br /><br />
     Visit www.somad.nyc for more information.
+  
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar-fixed-top");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
   </body>
 </html>

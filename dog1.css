@@ -1,12 +1,12 @@
 href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
 
 body {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Apple Chancery";
   font-size: 16px;
 }
 
-h1 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.fun {
+  font-family: "Brush Script MT, Apple Chancery";
   font-size: 4rem;
   font-weight: 600;
 }
@@ -33,6 +33,7 @@ h4 {
 p {
   color: #696b6e;
   font-size: 0.9rem;
+  font-family: "Apple Chancery";
 }
 
 .divider {
@@ -43,11 +44,16 @@ p {
   margin: 2rem auto;
 }
 
-.navbar-sticky-top.scrolled {
+.navbar.scrolled {
   background-color: green !important;
   transition: background-color 200ms linear;
 }
 
-.navbar-sticky-top.scrolled .nav-link {
+.navbar-fixed-top.scrolled {
+  background-color: green !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
   color: #555;
 }
