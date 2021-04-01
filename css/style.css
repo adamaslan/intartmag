@@ -1,0 +1,60 @@
+.section_content {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+}
+
+.section {
+    /* width: 90%;
+    margin-right: auto;
+    margin-left: auto; */
+    border-bottom: 1px solid #888888; 
+    margin-bottom:10px;
+}
+  
+figure {
+    /* display: block;
+    margin-right: auto;
+    margin-left: auto; */
+    width: 80%;
+    margin-bottom: 2.5rem;
+}
+
+figcaption {
+    color: 	#888888;
+    font-style: italic;
+}
+
+.section img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section h1 {
+    font-size: 20px;
+}
+
+article p {
+    text-indent: 2rem;
+}
+
+.post-header h1{
+    text-align: left;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.post-header p {
+    font-size: 12px;
+    color: gray;
+}
+
+.post-header {
+    margin-bottom: 2rem;
+}
+
