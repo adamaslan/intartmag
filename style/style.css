@@ -29,11 +29,6 @@ h1 {
     transition: background-color 0.5s;
 }
 
-.navbar.scrolled {
-    background: linear-gradient(to bottom, black, rgba(255,255,255,0)); !important;
-    transition: background 200ms linear;
-}
-
 /*top header*/
 .top-header {
     background-color: black;
@@ -130,5 +125,10 @@ footer {
     .top-header h1{
         font-size: 40px;
         font-weight: 100;
+    }
+
+    .navbar.scrolled {
+        background: linear-gradient(to bottom, black, rgba(255,255,255,0)); !important;
+        transition: background 200ms linear;
     }
 }
