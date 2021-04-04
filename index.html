@@ -27,23 +27,30 @@
       })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
       ga('create', 'UA-91787385-1', 'auto');
       ga('send', 'pageview');
+
+	  $(function () {
+		  $(document).scroll(function () {
+			  var $nav = $(".navbar");
+			  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+		  });
+	  });
 	</script>
    <!-- Style Sheets -->
 	<!-- <link rel="stylesheet" href="./css/dog.css"> -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@500&family=Rakkas&family=Playfair+Display:ital@0;1&family=Rakkas&family=Space+Grotesk&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-md navbar-dark bg-fade fixed-top"> <a class="navbar-brand" style="color: red;" href="/">I.A.M.</a>
+	<nav class="navbar navbar-expand-md bg-fade fixed-top"> <a class="navbar-brand" href="./index.html">I. A. M.</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-		<div class="collapse navbar-collapse" style="margin-left: 3rem; margin-right: 3rem;" id="navbarsExampleDefault">
+		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active"> <a class="nav-link" style="color: red;" href="about">About <span class="sr-only">(current)</span></a> </li>
-				<li class="nav-item"> <a class="nav-link" style="color: red;" href="galleries">Galleries</a> </li>
-				<li class="nav-item"> <a class="nav-link" style="color: red;" href="culture">Culture</a> </li>
+				<li class="nav-item active"> <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="./pages/galleries.html">Galleries</a> </li>
+				<li class="nav-item"> <a class="nav-link" href="./pages/culture.html">Culture</a> </li>
 			</ul>
 		</div>
 	</nav>
@@ -65,8 +72,10 @@
                <figcaption>Jamie Martinez, The Journey, 2020, Carved Caulk, Paint, Oil Pastel Sticks & Embroidery on Canvas, 24x18in, Unique</figcaption>
             </figure>
             <p>Much was done to clamour for the rights of BIPOC over the summer and steps have been made by some art institutions to be more inclusive, but still “FOGO!” an exhibition featuring Latinx artists in support of APIB (Brazilian's Indigenous People Articulation) stands out amongst the rest. The show is powerful and pays beautiful homage to an indigenous aesthetic that is simultaneously historically rich and contemporary.</p>
-            <img src="./images/carla1.jpg">
-            <p>Carla Maldonado, Noméo (in collaboration with Marli Bárbara Prado Vaz), 2020, 2:45min Loop, Digital Video with Audio</p>
+            <figure>
+				<img src="./images/carla1.jpg">
+				<figcaption>Carla Maldonado, Noméo (in collaboration with Marli Bárbara Prado Vaz), 2020, 2:45min Loop, Digital Video with Audio</figcaption>
+			</figure>
             <p>Anytime a group show features 19 artists, one may be a bit scared as to the amplified variety of aesthetics and varying quality of the art, but SoMad did an impeccable job of curation, which makes the viewing experience both pleasant and inspiring.</p>
          </article>
 			<p>Click <a href="./pages/somadpresentsfogo.html">here</a> to read more.</p>
@@ -96,8 +105,11 @@
 			</div>
 			<article>
 				<p>Microscope Gallery will be showing the four-channel video installation "Border Control" at the 2020 Armory Show. The gallery has shown work from Ahwesh in the past at their gallery located at 1329 Willoughby Ave in Bushwick.</p>
-				<p>"Border Control" employs four flat screens to examine US Border Policy. The video was shot at the border of San Diego and Tijuana. Of particular note is the face that the art piece acts as a witness to man climbing over an existing wall at the border to enter the US, making this piece front line journalism as well as art.</p> <img src="./images/peggy.jpg">
-				<p>Peggy Ahwesh, “Border Control”, 2019, four-channel video installation, dimensions variable — Image courtesy of the artist and Microscope Gallery</p>	
+				<p>"Border Control" employs four flat screens to examine US Border Policy. The video was shot at the border of San Diego and Tijuana. Of particular note is the face that the art piece acts as a witness to man climbing over an existing wall at the border to enter the US, making this piece front line journalism as well as art.</p>
+				<figure>
+					<img src="./images/peggy.jpg">
+					<figcaption>Peggy Ahwesh, “Border Control”, 2019, four-channel video installation, dimensions variable — Image courtesy of the artist and Microscope Gallery</figcaption>
+				</figure>
 			</article>
 			<p>Click <a href="./pages/microscopegalleryatarmoryshow.html">here</a> to read more.</p>
 		</div>
@@ -626,7 +638,7 @@
 	<footer>
 		<p>International Art Magazine &#169;</p>
 		<p><i>Interweaving international and local interests, particularly in NYC. Art news, reviews and cultural discourse.</i></p>
-		<a href="/" title="Back to the Home page"><strong>HOME Art</strong></a> 
+		<a href="#top" title="Back to the Home page"><strong>HOME TOP</strong></a>
 	</footer>
 </body>
 </html>

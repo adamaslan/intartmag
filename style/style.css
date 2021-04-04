@@ -1,6 +1,62 @@
 .body{
-    font-family: 'Karla', sans-serif;
+    /*font-family: 'Karla', sans-serif;*/
+    font-family: 'Space Grotesk', sans-serif;
 }
+
+h1 {
+    text-align: center;
+    font-family: 'Spectral', serif;
+    /*font-family: 'Playfair Display', serif;*/
+}
+
+/*nav bar*/
+.navbar {
+    font-family: 'Rakkas', cursive;
+    color: red;
+}
+
+.navbar a{
+    color: red;
+}
+
+.collapse .navbar-collapse {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.navbar-scroll {
+    background-color: rgb(0, 255, 42);
+    transition: background-color 0.5s;
+}
+
+.navbar.scrolled {
+    background: linear-gradient(to bottom, black, rgba(255,255,255,0)); !important;
+    transition: background 200ms linear;
+}
+
+/*top header*/
+.top-header {
+    background-color: black;
+    color: white;
+    padding: 5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: block;
+}
+
+.top-header h1{
+    font-size: 70px;
+    font-family: 'Rakkas', cursive;
+}
+
+.top-header p{
+    font-size: 13px;
+    font-style: oblique;
+    text-align: center;
+    font-family: 'Spectral', serif;
+}
+
+/*post section*/
 .section_content {
     margin-right: auto;
     margin-left: auto;
@@ -8,43 +64,17 @@
 }
 
 .section {
-    /* width: 90%;
-    margin-right: auto;
-    margin-left: auto; */
-    border-bottom: 1px solid #888888; 
+    border-bottom: 1px solid #888888;
     margin-bottom: 2.5rem;
-}
-  
-figure {
-    /* display: block;
-    margin-right: auto;
-    margin-left: auto; */
-    width: 80%;
-    margin-bottom: 2.5rem;
-}
-
-figcaption {
-    color: 	#888888;
-    font-style: italic;
-}
-
-.section img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Spectral', serif;
 }
 
 .section h1 {
     font-size: 20px;
 }
 
-article p {
-    text-indent: 2rem;
+/*post-header*/
+.post-header {
+    margin-bottom: 2rem;
 }
 
 .post-header h1{
@@ -58,33 +88,47 @@ article p {
     color: gray;
 }
 
-.post-header {
-    margin-bottom: 2rem;
+article p {
+    text-indent: 2rem;
+}
+
+/*image styling*/
+figure {
+    width: 80%;
+    margin-bottom: 2.5rem;
+}
+
+figcaption {
+    color: 	#888888;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 footer {
     background-color: black;
     color: white;
-    font-weight: 50rem;
+    font-weight: 500;
     padding: 2rem;
 }
 
-.top-header {
-    background-color: black;
-    color: white;
-    padding: 5rem;
-    margin-bottom: 2rem;
-    width: 100%;
-    display: block;
-}
+@media (max-width: 500px) {
+    .navbar a{
+        color: white;
+    }
 
-.top-header h1{
-    font-size: 70px;
-}
+    .top-header {
+        padding: 4rem 1rem 2rem 1rem;
+        margin-bottom: 1.5rem;
+        background-color: #ff00bf;
+    }
 
-.top-header p{
-    font-size: 13px;
-    font-style: oblique;
-    text-align: center;
-    font-family: 'Spectral', serif;
+    .top-header h1{
+        font-size: 40px;
+        font-weight: 100;
+    }
 }
