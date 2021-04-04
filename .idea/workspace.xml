@@ -2,55 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="313c9784-e2ec-4f82-8858-76942287266a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/dog-hoping-to-use-oldpaper.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/dog-hoping-to-use-oldpaper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dog.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/dog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dog1.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/dog1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/3valuereds.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/3valuereds.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/adamaslan.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/adamaslan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/art-article-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/art-article-template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/art.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/art.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/article-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/article-template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/audra.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/audra.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/aurorahalal-nitemind-moma.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aurorahalal-nitemind-moma.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/beer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/beer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/byronkim.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/byronkim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/carlitodalceggio-interview.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/carlitodalceggio-interview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/continuities.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/continuities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/culture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/deancercone.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/deancercone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/decolonizeart.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/decolonizeart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/food.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/food.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/fridayinbushwick.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/fridayinbushwick.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/galleries.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/galleries.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/inthebight.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/inthebight.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/jaymidler.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/jaymidler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/jorgeandrewgallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/jorgeandrewgallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lic.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/liqour.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/liqour.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/liquor.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/liquor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/microscopegalleryatarmoryshow.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/microscopegalleryatarmoryshow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/naturalwine.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/naturalwine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/novacancy3.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/novacancy3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/nycxdesign-hurrah.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nycxdesign-hurrah.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paradicepalase-jovanniluna-cool-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/paradicepalase-jovanniluna-cool-template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paradicepalase-jovanniluna-hoping-to-be-the-new-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/paradicepalase-jovanniluna-hoping-to-be-the-new-template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paradicepalase-jovanniluna.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/paradicepalase-jovanniluna.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paradicepalase-jovanniluna1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/paradicepalase-jovanniluna1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sarahszeandnewmoma.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sarahszeandnewmoma.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sheinspires.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sheinspires.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/somadpresentsfogo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/somadpresentsfogo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/tastythings.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tastythings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/tequiladrinkingatbossanova.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tequiladrinkingatbossanova.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/theborder.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theborder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/threshold_.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/threshold_.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/travel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/willtopower.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/willtopower.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wine.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/wine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/style/dog1.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -72,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/dog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2642">
+            <state relative-caret-position="90">
               <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
@@ -83,11 +35,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="389">
               <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -123,6 +84,7 @@
         <option value="$PROJECT_DIR$/style/dog1.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/art.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -146,6 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,7 +125,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,13 +167,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="688000" />
+    <option name="totallyTimeSpent" value="716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,12 +198,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style/dog-hoping-to-use-oldpaper.css">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/style/dog1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/dog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2642">
+        <state relative-caret-position="90">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
@@ -249,17 +215,20 @@
     <entry file="file://$PROJECT_DIR$/style/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/dog1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/style/dog-hoping-to-use-oldpaper.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
