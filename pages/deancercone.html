@@ -1,90 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta http-equiv="Content-Type" content="text/html;">
-<meta charset=utf-8>
-  <title>International Art Magazine</title>
-    <meta name="keywords" content="artmag, mag, artnyc, international, art, magazine, arte, fuse, artforum, artnerd, galleries, bushwick, williambsburg,les, chinatown, scene, nycgallery, nycartfair ">
-  <meta name="description" content="Interweaving art interests in the international that affects the local, especially in our home borough of Brooklyn. Come here for international and New York art news, reviews, and rousing cultural discourse.
-">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
- 
-  
- <link rel="shortcut icon" href="/iam.ico" type="image/x-icon">   
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;" />
+    <meta charset="utf-8" />
+    <title>International Art Magazine</title>
+    <meta
+      name="keywords"
+      content="artmag, mag, artnyc, international, art, magazine, arte, fuse, artforum, artnerd, galleries, bushwick, williambsburg,les, chinatown, scene, nycgallery, nycartfair "
+    />
+    <meta
+      name="description"
+      content="Interweaving art interests in the international that affects the local, especially in our home borough of Brooklyn. Come here for international and New York art news, reviews, and rousing cultural discourse."
+    />
+    <meta name="viewport" content="width=device-iwdth, initial-scale=1" />
+    <!-- JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="/iam.ico" type="image/x-icon" />
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-91787385-1", "auto");
+      ga("send", "pageview");
 
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+    <!-- Style Sheets -->
+    <!-- <link rel="stylesheet" href="./css/dog.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@500&family=Rakkas&family=Playfair+Display:ital@0;1&family=Rakkas&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
 
-  ga('create', 'UA-91787385-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
- <link rel="stylesheet" href="dog.css">
-    
-</head>
-<body>
-<img src="IAM-logo.jpg" width="75% height="75% "  >
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+  <body>
+    <nav class="navbar navbar-expand-md bg-fade fixed-top">
+      <a class="navbar-brand" href="../index.html">I. A. M.</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="/">International Art Magazine</a>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html"
+              >Home<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galleries.html">Galleries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="culture.html">Culture</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="top-header">
+      <h1>International Art Magazine</h1>
+      <p>Art news, reviews and cultural discourse.</p>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-   
-       
-        <li><a href="about">About</a></li>
-        <li><a href="art">Art</a></li>
-        <li><a href="galleries">Galleries</a></li> 
-        <li><a href="travel">Travel</a></li>
-        <li><a href="culture">Culture</a></li>
-     
-      </ul>
-      
+    <div class="section_content">
+      <div class="section">
+        <div class="post-header">
+          <h1>Dean Cercone at Galerie Manque</h1>
+          <p>By Adam Aslan</p>
+        </div>
+        <article>
+          <figure>
+            <img src="../images/dean1.jpg" />
+          </figure>
+          <p>
+            Dean Cercone was making art in Bushwick before most of the galleries
+            in Bushwick were even open. If one of the many galleries currently
+            located in Bushwick were to select an artist representive of a wave
+            of artists that helped establish the neighborhood as the creative
+            mecca it is today that actually still live there, few would find a
+            better choice than Dean Cercone, a founding member of Bushwick
+            venues the Glove and Bohemian Grove.
+          </p>
+          <p>
+            Bushwick has long been considered a haven for artists, but as rent
+            increases at alarming rates, the number of artists actually living
+            there decreases. While there does seem to be a healthy amount of
+            artist studios in Bushwick, one has to wonder how many of these
+            artists are willing to stand as independently in the art world as
+            Cercone.
+          </p>
+        </article>
+      </div>
     </div>
-  </div>
-</nav>
 
- ----------------------------------------------------------------- <br> Dean Cercone at Galerie Manque <br>By Adam Aslan
-
-<BR><img src="dean1.jpg"  width="75% height="75% " > <br>Photo by Adam Aslan<br> <br><BR>
-
-
-Dean Cercone was making art in Bushwick before most of the galleries in Bushwick were even open. If one of the many galleries currently located in Bushwick were to select an artist representive of a wave of artists that helped establish the neighborhood as the creative mecca it is today that actually still live there, few would find a better choice than Dean Cercone, a founding member of Bushwick venues the Glove and Bohemian Grove. <br><br>
-
-Bushwick has long been considered a haven for artists, but as rent increases at alarming rates, the number of artists actually living there decreases. While there does seem to be a healthy amount of artist studios in Bushwick, one has to wonder how many of these artists are willing to stand as independently in the art world as Cercone. 
-<br><br>
-While Dean Cercone has an artistic identity that remains independant from traditional art circles, he has shown in a number of galleries and art fairs.  
-<br>
-
-<BR><img src="dean2.jpg"  width="75% height="75% " > <br> Photo by Adam Aslan<br> <br><BR>
-<br>
-Here is the press release:
-<br><br>
-
-Galerie Manqué presents Memory Silt, an exhibition of large-scale abstract paintings by artist and musician Dean Cercone.  The show’s title refers to Cercone’s view of his work as a kind of remnant of both the flow of associations in his mind as he creates it and the material residue of the physical actions taken in applying the material. 
-<br><br>
-Affinities to the low-fi, do-it-yourself aesthetic found in Cercone’s music are echoed in his paintings’ raw and direct execution.  Cercone creates the paintings on large pieces of unstretched canvas, laid flat on the floor of his Brooklyn studio or, weather permitting, on the concrete surface behind the studio.  Some of his primary materials include house paint, spray enamel, and charcoal created by burning pieces of found wood in a makeshift fire pit outside his studio. 
-<br><br>
-The paintings are usually created while Cercone listens to music—which can span a wide range of styles, from classical to calypso, country to the work of his contemporaries in Brooklyn. The execution is spontaneous, with Cercone attempting to achieve a coherent balance of the dispersal of charcoal, sprayed and brushed paint over the surface of the canvas. 
-<br><br>
-The results—monumental, gestural and with a powerfully memorable “signature” look—strangely suggest the work of a previously unknown artist from the heyday of AbEx.  However, Cercone’s employment of abject and contemporary materials (charred found wood, aerosol spray paint) gives the work a gritty, DIY, “street” feel that anchors it firmly in the present. 
-<br><br>
-Cercone’s efforts at creating a satisfyingly balanced, coherent-if-raw visual statement–cobbled together from whatever materials are at hand and found to be effective in serving a desired purpose–could be viewed as having parallels to his generation’s attempts to piece together a life in an era of extreme wealth inequality and rampant downward social mobility. 
-
-<br><br>
-
-<BR><img src="dean3.jpg"  width="75% height="75% " > <br><br> <br><BR>
-
-<br><br><a href="/"><u>HOME</u></a> 
+    <footer>
+      <a href="/">HOME</a>
+      <a href="https://www.instagram.com/intartmag/"> Visit our Instagram </a>"
+    </footer>
+  </body>
+</html>
