@@ -109,6 +109,9 @@ footer {
     color: white;
     font-weight: 500;
     padding: 2rem;
+    a{
+        color: red;
+    }
 }
 
 @media (max-width: 500px) {
