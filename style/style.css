@@ -88,6 +88,8 @@ article p {
 }
 
 /*image styling*/
+
+
 figure {
     width: 80%;
     margin-bottom: 2.5rem;
@@ -103,7 +105,11 @@ img {
     width: 100%;
     height: auto;
 }
+a {
+    
+    color: red;
 
+}
 footer {
     background-color: black;
     color: white;
