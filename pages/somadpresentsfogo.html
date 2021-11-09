@@ -10,25 +10,22 @@
     />
     <meta
       name="description"
-      content="Interweaving art interests in the international that affects the local, especially in our home borough of Brooklyn. Come here for international and New York art news, reviews, and rousing cultural discourse.
-"
+      content="Interweaving art interests in the international that affects the local, especially in our home borough of Brooklyn. Come here for international and New York art news, reviews, and rousing cultural discourse."
     />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-iwdth, initial-scale=1" />
+    <!-- JS -->
     <script
-			  src="https://code.jquery.com/jquery-3.6.0.min.js"
-			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-			  crossorigin="anonymous"></script>
-    
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
-    />
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.bundle.min.js"></script>
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="shortcut icon" href="/iam.ico" type="image/x-icon" />
-
     <script>
       (function (i, s, o, g, r, a, m) {
         i["GoogleAnalyticsObject"] = r;
@@ -49,31 +46,73 @@
         "https://www.google-analytics.com/analytics.js",
         "ga"
       );
-
       ga("create", "UA-91787385-1", "auto");
       ga("send", "pageview");
+
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
     </script>
-    <link rel="stylesheet" href="dog1.css" />
-
-    <nav id="foo" class="navbar fixed-top navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Sticky top</a>
-      <ul class="nav navbar-nav">
-				<li class="nav-item"><a href="#" class="nav-link">Home</a></li>   
-    </nav>
-
+    <!-- Style Sheets -->
+    <!-- <link rel="stylesheet" href="./css/dog.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@500&family=Rakkas&family=Playfair+Display:ital@0;1&family=Rakkas&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
   </head>
+
   <body>
-    <img src="IAM-logo.jpg" width="75% height="75% " >
-
-  
-
+    <nav class="navbar navbar-expand-md bg-fade fixed-top">
+      <a class="navbar-brand" href="../index.html">I. A. M.</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html"
+              >Home<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galleries.html">Galleries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="culture.html">Culture</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="top-header">
+      <h1>International Art Magazine</h1>
+      <p>Art news, reviews and cultural discourse.</p>
+    </div>
+    <div class="section_content">
+      <div class="section">
+        <div class="post-header">
+    <h1 class="fun">Show Review: Fogo! Group Exhibition at SoMad</h1>
+\
     <br />
-
-    -----------------------------------------------------------------
-    <br /><h1 class="fun">Show Review: Fogo! Group Exhibition at SoMad</h1> <br />
-
-    <br />
-    <img src="jamie1.jpg" width="75% height="75% " >
+    <img src="../images/jamie1.jpg" width="75% height="75% " >
     <br /><br />
     Jamie Martinez, The Journey, 2020, Carved Caulk, Paint, Oil Pastel Sticks &
     Embroidery on Canvas, 24x18in, Unique<br />
@@ -93,10 +132,11 @@
     pleasant and inspiring.
 
     <br /><br />
-    <img src="aleman1.jpg" width="75% height="75% " > <br /><br />Priscilla
-    Aleman (American, b.1991) Devotional Altar Piece to The Tropics 2020 Plaster
-    Cast (of Artist’s Feet,) Bismarck Palm Fruit (Originating from Madagascar
-    collected in a conservatory in South Florida), 15x15x6in, Unique <br />
+    <img src="../images/aleman1.jpg" width="75% height="75% " >
+    <br /><br />Priscilla Aleman (American, b.1991) Devotional Altar Piece to
+    The Tropics 2020 Plaster Cast (of Artist’s Feet,) Bismarck Palm Fruit
+    (Originating from Madagascar collected in a conservatory in South Florida),
+    15x15x6in, Unique <br />
     <br />
     <br />
     The show is up till November 12th. It features artists Priscilla Aleman,
@@ -109,7 +149,7 @@
     <br />
     <br />
 
-    <img src="cruz1.jpg" width="75% height="75% " > <br /><br />
+    <img src="../images/cruz1.jpg" width="75% height="75% " > <br /><br />
     Jordan Corine Cruz (American, b. 1993) Double Six Set Prayer 2020 Votive
     Wax, Acrylic, 7.6x2.8x2in, Unique <br /><br />
 
@@ -152,7 +192,7 @@
     SoMad is located at 34 East 23rd Street, 4th Floor New York, New York 10010
     <br /><br />
     Visit www.somad.nyc for more information.
-  
+
     <script>
       $(function () {
         $(document).scroll(function () {
