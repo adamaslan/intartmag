@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;" />
+    <meta charset="utf-8" />
+    <title>International Art Magazine</title>
+    <meta
+      name="keywords"
+      content="artmag, mag, artnyc, international, art, magazine, arte, fuse, artforum, artnerd, galleries, bushwick, williambsburg,les, chinatown, scene, nycgallery, nycartfair "
+    />
+    <meta
+      name="description"
+      content="Interweaving art interests in the international that affects the local, especially in our home borough of Brooklyn. Come here for international and New York art news, reviews, and rousing cultural discourse."
+    />
+    <meta name="viewport" content="width=device-iwdth, initial-scale=1" />
+    <!-- JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="shortcut icon" href="/iam.ico" type="image/x-icon" />
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-91787385-1", "auto");
+      ga("send", "pageview");
+
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+    <!-- Style Sheets -->
+    <!-- <link rel="stylesheet" href="./css/dog.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@500&family=Rakkas&family=Playfair+Display:ital@0;1&family=Rakkas&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md bg-fade fixed-top">
+      <a class="navbar-brand" href="../index.html">I. A. M.</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html"
+              >Home<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galleries.html">Galleries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="culture.html">Culture</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="top-header">
+      <h1>International Art Magazine</h1>
+      <p>Art news, reviews and cultural discourse.</p>
+    </div>
+    <div class="section_content">
+      <div class="section">
+        <div class="post-header">
+          <h1>Review: Portia Zvavahera at David Zwirner</h1>
+          <p>By Adam Aslan</p>
+        </div>
+        <article>
+          <figure>
+            <img src="../images/zwirner1.jpg" />
+            Zvandaona Portia Zvavahera at David Zwirner. Photo by Adam Aslan.
+          </figure>
+          <p>
+            Zimbabwean artist Portia Zvavahera presented her first solo show in
+            NYC at David Zwirner at the west 19th location.
+          </p>
+
+          <p>
+            Dichotomies of emotion punctuate the expressive paintings that bring
+            to mind some of life’s most intense vacillations. Liminality is of
+            central focus as dreams find resolution in the artist’s large scale
+            paintings.
+          </p>
+          <p>
+            The artist has presented at The National Gallery of Zimbabwe and the
+            55th Venice Biennale.
+          </p>
+
+          <p>
+            Ndakaoneswa murima by Portia Zvavahera is on view through December
+            18th at David Zwirner on 525 West 19th Street in New York.
+          </p>
+        </article>
+      </div>
+    </div>
+
+    <footer>
+      <a href="/">HOME</a>
+      <a href="https://www.instagram.com/intartmag/"> Visit our Instagram </a>
+    </footer>
+  </body>
+</html>
