@@ -1,161 +1,212 @@
- <!-- paradicepalase-Jovanniluna.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;" />
+    <meta charset="utf-8" />
+    <title>International Art Magazine</title>
+    <meta
+      name="keywords"
+      content="artmag, mag, artnyc, international, art, magazine, arte, fuse, artforum, artnerd, galleries, bushwick, williambsburg,les, chinatown, scene, nycgallery, nycartfair "
+    />
+    <meta
+      name="description"
+      content="Interweaving art interests in the international that affects the local, especially in our home borough of Brooklyn. Come here for international and New York art news, reviews, and rousing cultural discourse."
+    />
+    <meta name="viewport" content="width=device-iwdth, initial-scale=1" />
+    <!-- JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
 
- <!DOCTYPE html>
- <html lang="en">
- <head><meta http-equiv="Content-Type" content="text/html;">
- <meta charset=utf-8>
-   <title>International Art Magazine</title>
-     <meta name="keywords" content="artmag, mag, artnyc, international, art, magazine, arte, fuse, artforum, artnerd, galleries, bushwick, williambsburg,les, chinatown, scene, nycgallery, nycartfair ">
-   <meta name="description" content="Interweaving art interests in the international that affects the local, especially in our home borough of Brooklyn. Come here for international and New York art news, reviews, and rousing cultural discourse.
- ">
-   
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-   
-  <link rel="shortcut icon" href="/iam.ico" type="image/x-icon">   
- 
-   <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
- 
-   ga('create', 'UA-91787385-1', 'auto');
-   ga('send', 'pageview');
- 
- </script>
- 
- <link rel="stylesheet" href="dog.css">    
- </head>
+    <link rel="shortcut icon" href="/iam.ico" type="image/x-icon" />
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-91787385-1", "auto");
+      ga("send", "pageview");
 
-<nav class="navbar navbar-expand-md navbar-dark bg-fade fixed-top">
-  <a class="navbar-brand"  color: "red" href="/">I.A.M.</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+    <!-- Style Sheets -->
+    <!-- <link rel="stylesheet" href="./css/dog.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@500&family=Rakkas&family=Playfair+Display:ital@0;1&family=Rakkas&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
 
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" color: "red" href="about">About <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"  color: "red" href="galleries">Galleries</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"  color: "red" href="culture">Culture</a>
-      </li>
+  <body>
+    <nav class="navbar navbar-expand-md bg-fade fixed-top">
+      <a class="navbar-brand" href="../index.html">I. A. M.</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html"
+              >Home<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galleries.html">Galleries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="culture.html">Culture</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="top-header">
+      <h1>International Art Magazine</h1>
+      <p>Art news, reviews and cultural discourse.</p>
+    </div>
+    <div class="section_content">
+      <div class="section">
+        <div class="post-header">
+          <h1>“The Process of Jovanni Luna at Paradice Palase”</h1>
+
+          <p class="lead">By Adam Aslan</p>
+        </div>
+      </div>
+
+
+
+          <p></p>
+          <p>
+            Hidden expression marked with strong visual imagery highlight the
+            process by which Jovanni Luna creates “paintskins”. While the final
+            art object is striking the entire process is filled with fulfilling
+            aesthetic moments to which only the artist is privy.
+
+<p>            </p>
+            “A paintskin, constructed out of latex paint, is in a constant state
+            of transformation from its initial state of liquid to solid. It
+            gradually evolves through repetitive actions of layering, cutting
+            and rolling the paint. This laborious process of working becomes
+            hidden with each additional layer of material, obscuring the actions
+            before it, allowing only subtle cues to be seen in the end: hints of
+            color, gentle textures, subtle brushstrokes, ” says Luna.
+
+<p>            </p>
+
+            <img src="../images/paintskin1.jpg" width="75% height="75% " >
+<p>            </p>
+            "953”, paintskins on wooden shelves, 36”x36”x2”, 2020 - Image
+            <p>courtesy of the artist</p>
+            Luna recently showed work at Paradice Palase where he is an Oasis
+            Studio member. Paradice Palase is quickly cementing itself a
+            cultural institution on the far eastern boundary of Bushwick and
+            Bedstuy, which is demarcated by Brooklyn’s heart of commerce,
+            Broadway.
+<p>            </p>
+            Here is a bit more from Paradice Palase about their platform and
+            their show with Jovanni Luna:
+
+<p>            </p>
+            “PARADICE PALASE is an arts platform promoting the democratization
+            of the art world for creators and patrons. We support emerging
+            artists and foster accessible arts patronage by producing
+            collectible arts retails, online content, and exhibitions. We
+            champion a model funded in part by a public members community, where
+            art makers and lovers can subscribe in exchange for benefits.{
+            Founded in 2017 by Kat Ryals and Lauren Hirshfield, they connected
+            after each recognizing barriers to entry for artists and collectors
+            in the contemporary art landscape. Thus PARADICE PALASE is the love
+            child of DIY and art world utopia, with a flare of the bold and
+            brilliant.
+<p>            </p>
+
+            Postponed was a very exciting show to see Jovanni bring to life. As
+            one of our Oasis Studios Members, we had the privilege of following
+            his progress on the series from its infancy. There is an almost
+            obsessive repetition that exists in his practice, and the process to
+            create each "paint skin" as he calls them - whether 3 feet tall or
+            the size of a finger - manifests as a sort of 3-dimensional mark
+            making. Manipulation of latex house paint has been the core of
+            Jovanni's practice for nearly 10 years and it was exciting to
+            witness yet another innovative body of work with the material reach
+            completion on our gallery walls. The closing reception, on July
+            17th, was the first in-person reception we hosted since the
+            quarantine first began in NYC. We were very grateful to have been
+            able to assist in these works getting fresh eyes on them IRL. The
+            works beg for intimate encounters; the hundreds of mini spiraled
+            forms populate their designated shelves and each structure seemed at
+            once both precious and concrete. The choice Jovanni makes to present
+            his paint skins within framed shelves triggers thoughts of
+            categorical archives, a coded language, macro and micro cityscapes,
+            and rhythmic jazz. Perhaps most poignant however is that postponed
+            was birthed through a time of crisis, of people feeling trapped in
+            their boxes while knowing the precariousness the outside world now
+            offers. Other recent sculptures from Jovanni consider the ease in
+            which things fall apart if we rush to solve them. The works in
+            postponed gave us a chance instead to hold space for them, to move
+            with grace and compassion, and be rewarded for it.”
+<p>            </p>
+            <p>Paradice Palase is located at 1260 Broadway, Brooklyn, NY, 11221</p>
+            <p>To learn more about Paradice Palase visit: paradicepalase.com</p>
+            <p>To learn more about Jovanni Luna visit: jovanniluna.com </p>
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="module parallax parallax-2"
+        data-type="background"
+        data-speed="10"
+      >
       
-      </li>
-    </ul>
-   
-  </div>
-</nav>
-<div class="jumbotron jumbotron-fluid">
-<div class="container"><br>
-<h1 class="parallax-container"><h1>“The Process of Jovanni Luna at Paradice Palase”  
-</h1>
-
-
-
-<p class="lead">By Adam Aslan</p>
-</div>
-</div>
-
-
-<section  class="module content">
-<div class="parallax-container">
-
-<p><p>Hidden expression marked with strong visual imagery highlight the  process by which Jovanni Luna creates “paintskins”.  While the final art object is striking the entire process is filled with fulfilling aesthetic moments to which only the artist is privy. 
-
-<br><br>
-“A paintskin, constructed out of latex paint, is in a constant state of transformation from its
-initial state of liquid to solid. It gradually evolves through repetitive actions of layering, cutting
-and rolling the paint. This laborious process of working becomes hidden with each additional
-layer of material, obscuring the actions before it, allowing only subtle cues to be seen in the
-end: hints of color, gentle textures, subtle brushstrokes, ” says Luna.
-
-<br><br>
-
-<img src="paintskin1.jpg"  width="75% height="75% " > <br><br> "953”, paintskins on wooden shelves, 36”x36”x2”, 2020 - Image courtesy of the artist<br>
-Luna recently showed work at Paradice Palase where he is an Oasis Studio member. Paradice Palase is quickly cementing itself a cultural institution on the far eastern boundary of Bushwick and Bedstuy, which is demarcated by Brooklyn’s heart of commerce, Broadway.
-<br><br>
-Here is a bit more from Paradice Palase about their platform and their show with Jovanni Luna:
-
-
-
-
-
-
-<br><br>
-“PARADICE PALASE is an arts platform promoting the democratization of the art world
-for creators and patrons. We support emerging artists and foster accessible arts
-patronage by producing collectible arts retails, online content, and exhibitions. We
-champion a model funded in part by a public members community, where art makers
-and lovers can subscribe in exchange for benefits.{
-Founded in 2017 by Kat Ryals and Lauren Hirshfield, they connected after each
-recognizing barriers to entry for artists and collectors in the contemporary art landscape.
-Thus PARADICE PALASE is the love child of DIY and art world utopia, with a flare of
-the bold and brilliant.
-<br><br>
-
-Postponed was a very exciting show to see Jovanni bring to life. As one of our Oasis
-Studios Members, we had the privilege of following his progress on the series from its
-infancy. There is an almost obsessive repetition that exists in his practice, and the
-process to create each "paint skin" as he calls them - whether 3 feet tall or the size of a
-finger - manifests as a sort of 3-dimensional mark making. Manipulation of latex house
-paint has been the core of Jovanni's practice for nearly 10 years and it was exciting to
-witness yet another innovative body of work with the material reach completion on our
-gallery walls. The closing reception, on July 17th, was the first in-person reception we
-hosted since the quarantine first began in NYC. We were very grateful to have been
-able to assist in these works getting fresh eyes on them IRL. The works beg for intimate
-encounters; the hundreds of mini spiraled forms populate their designated shelves and
-each structure seemed at once both precious and concrete. The choice Jovanni makes
-to present his paint skins within framed shelves triggers thoughts of categorical
-archives, a coded language, macro and micro cityscapes, and rhythmic jazz. Perhaps
-most poignant however is that postponed was birthed through a time of crisis, of people
-feeling trapped in their boxes while knowing the precariousness the outside world now
-offers. Other recent sculptures from Jovanni consider the ease in which things fall apart
-if we rush to solve them. The works in postponed gave us a chance instead to hold
-space for them, to move with grace and compassion, and be rewarded for it.”
-<br><br>
-Paradice Palase is located at 1260 Broadway, Brooklyn, NY, 11221<br>
-To learn more about Paradice Palase visit: paradicepalase.com<br>
-To learn more about Jovanni Luna visit: jovanniluna.com  <br>
-</p>
-</div>
-</section>
-
-<section class="module parallax parallax-2" data-type="background" data-speed="10">
-<div class="parallax-container">
-<h1>I.A.M.</h1>
-</div>
-</section>
-
-<footer class="footer"> 
-  <div class="container-fluid bg-primary">
-    <div class="row">
-      <div class="col-xs-6 col-md-4 left">
-<p>&copy; Internation Art Magazine</p>
-    </div>
-      <div class="col-xs-6 col-md-4 left">
-
-<a href="about">About Us</a> 
-    </div>
-      <div class="col-xs-6 col-md-4 right">
-<a href="#" class="btn btn-social-icon btn-twitter">
-<span class="fa fa-twitter"></span>
-</a>
-<a href="#" class="btn btn-social-icon btn-facebook">
-<span class="fa fa-facebook"></span>
-</a>
-    <a href="#" class="btn btn-social-icon btn-instagram">
-<span class="fa fa-instagram"></span>
-</a>
-    </div>
-    </div>
-</div>
-</footer>
+        </div>
+    
+        <footer>
+          <a href="/">HOME</a>
+          <a href="https://www.instagram.com/intartmag/"> Visit our Instagram </a>
+        </footer>
+      </body>
+    </html>
+    
