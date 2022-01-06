@@ -1,63 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>International Art Magazine</title>
-  <meta charset="utf-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="artmag, mag, artnyc, international, art, magazine, arte, fuse, artforum, artnerd, galleries, bushwick, williambsburg,les, chinatown, scene, nycgallery, nycartfair ">
-  <meta name="description" content="Interweaving interests in the international that affects the local, especially in our home borough of Brooklyn. Come here for international and New York art news, reviews and cultural discourse.
-">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
- 
-  
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;" />
+    <meta charset="utf-8" />
+    <title>International Art Magazine</title>
+    <meta
+      name="keywords"
+      content="artmag, mag, artnyc, international, art, magazine, arte, fuse, artforum, artnerd, galleries, bushwick, williambsburg,les, chinatown, scene, nycgallery, nycartfair "
+    />
+    <meta
+      name="description"
+      content="Interweaving art interests in the international that affects the local, especially in our home borough of Brooklyn. Come here for international and New York art news, reviews, and rousing cultural discourse."
+    />
+    <meta name="viewport" content="width=device-iwdth, initial-scale=1" />
+    <!-- JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
 
- <link rel="shortcut icon" href="/iam.ico" type="image/x-icon">   
-  
- <link rel="stylesheet" href="dog.css">
-    
-</head>
-<body>
+    <link rel="shortcut icon" href="/iam.ico" type="image/x-icon" />
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-91787385-1", "auto");
+      ga("send", "pageview");
 
-<img src="IAM-logo.jpg" width="30% height="30% "  >
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+    <!-- Style Sheets -->
+    <!-- <link rel="stylesheet" href="./css/dog.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@500&family=Rakkas&family=Playfair+Display:ital@0;1&family=Rakkas&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md bg-fade fixed-top">
+      <a class="navbar-brand" href="../index.html">I. A. M.</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="/">International Art Magazine</a>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html"
+              >Home<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galleries.html">Galleries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="culture.html">Culture</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="top-header">
+      <h1>International Art Magazine</h1>
+      <p>Art news, reviews and cultural discourse.</p>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-   
-       
-        <li><a href="about">About</a></li>
-        <li><a href="art">Art</a></li>
-        <li><a href="galleries">Galleries</a></li> 
-       
-        <li><a href="culture">Culture</a></li>
-     
-      </ul>
-      
-    </div>
-  </div>
-</nav>
-
-<br>
-
-<br>
-<p>-----------------------------------------------------------------<br><br>
-
-  Thoughts on the Sarah Sze and the New MOMA <br> By Adam Aslan <br>
-<br>
-Sarah Sze has made a very strong impression on me.<br> <br> Her art is both technical and wild. One thing that impresses me about art and artists these days, is there ability to create art from something that was never thought of as art before.  <br> <br> So anyways people love lists so here is one: <br>
- <br>
-<u>10 things related to Sarah Sze and her installation at the MOMA </u> <br>
- <br>
+    <div class="section_content">
+      <div class="section">
+        <div class="post-header">
+          <h1>
+  Thoughts on the Sarah Sze and the New MOMA <p>By Adam Aslan </p>
+          </h1>
+<p>Sarah Sze has made a very strong impression on me.<br> <br> Her art is both technical and wild. One thing that impresses me about art and artists these days, is there ability to create art from something that was never thought of as art before.  <br> <br> So anyways people love lists so here is one: <br>
+</p>
+<p><u>10 things related to Sarah Sze and her installation at the MOMA </u> <br>
+</p><p>
 1. Isnt it great when artists can bring together so many different things that make art beautiful in their own art? <br> <br>
 2. I still can't get over her using the granola bar wrapper in the installation. <br> <br>
 3. I never realized the threat of destruction of the piece from the swinging pendulum in the installation but thanks to MOMA pointing it out, I am even more excited about her piece.  <br><br>
@@ -68,12 +126,19 @@ Sarah Sze has made a very strong impression on me.<br> <br> Her art is both tech
 8. While were on the subject  of the MOMA, guess who's art is first one shown when you go to their  <a href="https://www.moma.org/about/new-moma"> new MOMA page</a>? Sarah Sze. <br> <br>
 9. What did I think of the new MOMA? It seemed a lot bigger than before. I really like the top floor, which is where <i>Triple Point (Pendulum) </i>  is installed. <br> <br>
 10. Would I recommend visiting the new MOMA?!? Ummm...duh. If anyone will get the masses to take serious interest in Contemporary Art, it is the MOMA.   <br> <br>
-
-<br><br>
-
-
-<img src="sarahsze1.jpg"  width="75% height="75% " > <br><br>Sarah Sze at the MOMA. Photo by Adam Aslan. <br>
-
-
 </p>
-   <a href="/" title="Back to the Home page"><b>HOME</b></a> <a href="art" title="Back to the Home page"><b>Art</b></a>
+
+<figure>
+<img src="sarahsze1.jpg"  width="75% height="75% " > <br><br>Sarah Sze at the MOMA. Photo by Adam Aslan. <br>
+</figure>
+
+</article>
+</div>
+</div>
+
+<footer>
+<a href="/">HOME</a>
+<a href="https://www.instagram.com/intartmag/"> Visit our Instagram </a>
+</footer>
+</body>
+</html>
