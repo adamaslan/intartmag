@@ -105,6 +105,12 @@ img {
     width: 100%;
     height: auto;
 }
+
+video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 a {
     
     color: red;
@@ -135,7 +141,7 @@ footer {
     }
 
     .navbar.scrolled {
-        background: linear-gradient(to bottom, black, rgba(255,255,255,0)); !important;
+        background: linear-gradient(to bottom, black, rgba(255,255,255,0)) !important;
         transition: background 200ms linear;
     }
 }
