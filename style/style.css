@@ -9,8 +9,11 @@
     height: auto;
     object-fit: cover;
     display: block;
-    margin: 0 auto; /* Centers the banner */
-    padding: 0 5%; /* Adds horizontal padding */
+    margin: 20px auto; /* Vertical and horizontal margin */
+    padding: 15px; /* Padding all around */
+    background-color: #f8f9fa; /* Optional light background */
+    border-radius: 4px; /* Optional rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional subtle shadow */
 }
 
 /* Tablet styles */
@@ -18,7 +21,8 @@
     .banner-image {
         max-height: 250px;
         width: 85%;
-        padding: 0 7.5%;
+        margin: 15px auto;
+        padding: 12px;
     }
 }
 
@@ -27,7 +31,8 @@
     .banner-image {
         max-height: 200px;
         width: 80%;
-        padding: 0 10%;
+        margin: 12px auto;
+        padding: 10px;
     }
 }
 
@@ -36,7 +41,8 @@
     .banner-image {
         max-height: 150px;
         width: 75%;
-        padding: 0 12.5%;
+        margin: 10px auto;
+        padding: 8px;
     }
 }
 
