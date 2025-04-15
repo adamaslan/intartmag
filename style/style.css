@@ -4,17 +4,21 @@
 }
 
 .banner-image {
-    width: 100%;
+    width: 90%;
     max-height: 300px;
     height: auto;
     object-fit: cover;
     display: block;
+    margin: 0 auto; /* Centers the banner */
+    padding: 0 5%; /* Adds horizontal padding */
 }
 
 /* Tablet styles */
 @media (max-width: 1024px) {
     .banner-image {
         max-height: 250px;
+        width: 85%;
+        padding: 0 7.5%;
     }
 }
 
@@ -22,6 +26,17 @@
 @media (max-width: 768px) {
     .banner-image {
         max-height: 200px;
+        width: 80%;
+        padding: 0 10%;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .banner-image {
+        max-height: 150px;
+        width: 75%;
+        padding: 0 12.5%;
     }
 }
 
