@@ -4,25 +4,22 @@
 }
 
 .banner-image {
-    width: 90%;
+    width: 95%;
     max-height: 300px;
     height: auto;
     object-fit: cover;
     display: block;
-    margin: 20px auto; /* Vertical and horizontal margin */
-    padding: 15px; /* Padding all around */
-    background-color: #f8f9fa; /* Optional light background */
-    border-radius: 4px; /* Optional rounded corners */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional subtle shadow */
+    margin: 10px auto; /* Reduced vertical margin */
+    padding: 5px; /* Reduced padding */
 }
 
 /* Tablet styles */
 @media (max-width: 1024px) {
     .banner-image {
         max-height: 250px;
-        width: 85%;
-        margin: 15px auto;
-        padding: 12px;
+        width: 90%;
+        margin: 8px auto;
+        padding: 4px;
     }
 }
 
@@ -30,9 +27,9 @@
 @media (max-width: 768px) {
     .banner-image {
         max-height: 200px;
-        width: 80%;
-        margin: 12px auto;
-        padding: 10px;
+        width: 85%;
+        margin: 6px auto;
+        padding: 3px;
     }
 }
 
@@ -40,9 +37,9 @@
 @media (max-width: 480px) {
     .banner-image {
         max-height: 150px;
-        width: 75%;
-        margin: 10px auto;
-        padding: 8px;
+        width: 80%;
+        margin: 5px auto;
+        padding: 2px;
     }
 }
 
