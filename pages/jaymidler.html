@@ -77,35 +77,8 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md bg-fade fixed-top">
-      <a class="navbar-brand" href="../index.html">I. A. M.</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarsExampleDefault"
-        aria-controls="navbarsExampleDefault"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="../index.html"
-              >Home<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="galleries.html">Galleries</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="culture.html">Culture</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div id="navbar-include"></div>
+    <script>(function loadNavbar(){var candidates=['../includes/navbar.html','./includes/navbar.html','/includes/navbar.html'];var target=document.getElementById('navbar-include');function tryFetch(i){if(!candidates[i])return console.warn('Navbar include not found');fetch(candidates[i]).then(function(r){if(!r.ok)throw new Error('not ok');return r.text();}).then(function(html){target.innerHTML=html;}).catch(function(){tryFetch(i+1);});}tryFetch(0);})();</script>
     <div class="top-header">
       <h1>International Art Magazine</h1>
       <p>Art news, reviews and cultural discourse.</p>

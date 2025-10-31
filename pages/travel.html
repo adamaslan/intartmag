@@ -16,6 +16,7 @@
     
 </head>
 <body>
+  <script>(function(){var candidates=['../includes/navbar.html','./includes/navbar.html','/includes/navbar.html'];function insert(html){var tmp=document.createElement('div');tmp.innerHTML=html;var newNav=tmp.firstElementChild;var old=document.querySelector('.navbar');if(old)old.parentNode.replaceChild(newNav,old);else document.body.insertBefore(newNav, document.body.firstChild);}function tryFetch(i){if(!candidates[i]){console.warn('Navbar include not found');return;}fetch(candidates[i]).then(function(r){if(!r.ok)throw new Error('not ok');return r.text();}).then(insert).catch(function(){tryFetch(i+1);});}tryFetch(0);})();</script>
 
 <img src="IAM-logo.jpg" width="30% height="30% "  >
 <nav class="navbar navbar-inverse">
