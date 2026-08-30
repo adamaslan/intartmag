@@ -17,7 +17,19 @@ template.innerHTML = `
           <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/galleries.html">Galleries</a>
+          <a class="nav-link" href="/pages/art-fairs.html">Art Fairs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/museums.html">Museums</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/nyc.html">NYC</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/artists.html">Artists</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/international.html">International</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/pages/culture.html">Culture</a>
