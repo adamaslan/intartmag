@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;" />
+    <meta charset="utf-8" />
+    <title>NYC - International Art Magazine</title>
+    <meta
+      name="keywords"
+      content="nyc art, new york galleries, bushwick, chinatown, tribeca, williamsburg, long island city, brooklyn art, international art magazine"
+    />
+    <meta
+      name="description"
+      content="I.A.M. coverage of the New York art scene: Bushwick, Chinatown, Tribeca, Williamsburg, Long Island City and the galleries and openings across the city."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="/iam.ico" type="image/x-icon" />
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-91787385-1", "auto");
+      ga("send", "pageview");
+
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@500&family=Rakkas&family=Playfair+Display:ital@0;1&family=Rakkas&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+
+  <body>
+    <script src="/navbar-component.js"></script>
+    <site-navbar></site-navbar>
+    <div class="top-header">
+      <h1>International Art Magazine</h1>
+      <p>Art news, reviews and cultural discourse.</p>
+    </div>
+    <div class="section_content">
+      <div class="section">
+        <div class="post-header">
+          <h1>NYC</h1>
+        </div>
+        <p>The New York scene &mdash; neighborhood gallery guides, openings, and project spaces across the boroughs.</p>
+
+        <h2>Neighborhood Guides</h2>
+        <ul>
+          <li><a href="./10-Galleries-in-Chinatown.html">10 Galleries in Chinatown</a></li>
+          <li><a href="./ten-galleries-in-tribeca-2025.html">Ten Galleries in Tribeca to Visit in 2025</a></li>
+          <li><a href="./bushwick.html">Bushwick: Where Does It Rank Among Centers for Art in NYC?</a></li>
+          <li><a href="./lic.html">Tonight in Long Island City</a></li>
+          <li><a href="./fridayinbushwick.html">Happening in Bushwick</a></li>
+          <li><a href="./galleries.html">Galleries We Love</a></li>
+        </ul>
+
+        <h2>Spaces &amp; Openings</h2>
+        <ul>
+          <li><a href="./novacancy3.html">No Vacancy III: The Power of Art in Brooklyn Culture</a></li>
+          <li><a href="./theborder.html">The BORDER, a New Project Space for Immigrant Art, Opens at 56 Bogart</a></li>
+          <li><a href="./inthebight.html">The Bite at Honey Ramka: Works by Ben Finer</a></li>
+          <li><a href="./jorgeandrewgallery.html">New Gallery in BK: Jorge Andrew Gallery</a></li>
+          <li><a href="./nycxdesign-hurrah.html">Interactive Artwork &ldquo;Hurrah!&rdquo; Takes On NYCxDESIGN</a></li>
+        </ul>
+
+        <h2>Shows &amp; Reviews</h2>
+        <ul>
+          <li><a href="./jennysgallerynyc.html">Oscillator: Pentti Monkkonen Incorporates Sound at Jenny&rsquo;s</a></li>
+          <li><a href="./backstory-universe-by-KIPNZ-at-diana.html">Worlds Collide at Backstory Universe by KIPNZ at Diana</a></li>
+          <li><a href="./barbara-ess-at-magenta-plains.html">Barbara Ess at Magenta Plains</a></li>
+          <li><a href="./sheinspires.html">Thoughts on She Inspires at The Untitled Space</a></li>
+          <li><a href="./somadpresentsfogo.html">Show Review: Fogo! Group Exhibition at SoMad</a></li>
+          <li><a href="./irja-boden-fractured-light.html">Irja Boden&rsquo;s Fractured Light at Amos Eno Gallery</a></li>
+          <li><a href="./continuities.html">Julie Speidel, &ldquo;Continuities&rdquo; at Winston W&auml;chter</a></li>
+          <li><a href="./byronkim.html">Byron Kim&rsquo;s Sunday Paintings at James Cohan</a></li>
+        </ul>
+
+        <div id="bottomdiv"><a href="/"><h2><u>Home</u></h2></a></div>
+      </div>
+    </div>
+  </body>
+</html>

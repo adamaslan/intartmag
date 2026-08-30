@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;" />
+    <meta charset="utf-8" />
+    <title>Art Fairs - International Art Magazine</title>
+    <meta
+      name="keywords"
+      content="art fairs, art basel, armory show, miami art week, la art week, spring break art show, nycartfair, international art magazine"
+    />
+    <meta
+      name="description"
+      content="I.A.M. coverage of the art fair circuit: Art Basel and Miami Art Week, the Armory Show, LA Art Week and more."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="/iam.ico" type="image/x-icon" />
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-91787385-1", "auto");
+      ga("send", "pageview");
+
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@500&family=Rakkas&family=Playfair+Display:ital@0;1&family=Rakkas&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+
+  <body>
+    <script src="/navbar-component.js"></script>
+    <site-navbar></site-navbar>
+    <div class="top-header">
+      <h1>International Art Magazine</h1>
+      <p>Art news, reviews and cultural discourse.</p>
+    </div>
+    <div class="section_content">
+      <div class="section">
+        <div class="post-header">
+          <h1>Art Fairs</h1>
+        </div>
+        <p>Reports from the fair circuit &mdash; Basel and Miami, the Armory Show, LA Art Week and the satellite fairs.</p>
+        <ul>
+          <li><a href="./miami-art-week-2023.html">Miami Art Week 2023 Preview</a></li>
+          <li><a href="./goodtoknowfyiatartbasel.html">Getting to Know Good to Know.FYI at Art Basel</a></li>
+          <li><a href="./artweekla.html">LA Art Week 2022</a></li>
+          <li><a href="./microscopegalleryatarmoryshow.html">Microscope Gallery&rsquo;s &ldquo;Border Control&rdquo; at the Armory Show</a></li>
+          <li><a href="./text.html">When Does Supplemental Text Become Too Much? (Spring/Break, Armory Week)</a></li>
+        </ul>
+        <div id="bottomdiv"><a href="/"><h2><u>Home</u></h2></a></div>
+      </div>
+    </div>
+  </body>
+</html>
