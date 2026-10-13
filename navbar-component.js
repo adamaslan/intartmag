@@ -17,6 +17,9 @@ template.innerHTML = `
           <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="/pages/guide.html">Guide</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="/pages/art-fairs.html">Art Fairs</a>
         </li>
         <li class="nav-item">
