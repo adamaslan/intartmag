@@ -13,6 +13,7 @@ template.innerHTML = `
     </button>
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="/listen.html">Listen</a></li>
         <li class="nav-item">
           <a class="nav-link" href="/">Home</a>
         </li>
