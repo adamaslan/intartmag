@@ -1,7 +1,9 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile,readdir} from 'node:fs/promises';
-const code=await readFile(new URL('../listening-queue.js',import.meta.url),'utf8');
+let code=await readFile(new URL('../listening-queue.js',import.meta.url),'utf8');
+const support=await readFile(new URL('../speech-support.js',import.meta.url),'utf8');
+code=code.replace("'./speech-support.js'",JSON.stringify('data:text/javascript;base64,'+Buffer.from(support).toString('base64')));
 const {chunkText,publicPath}=await import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'));
 const manifest=JSON.parse(await readFile(new URL('../listening-index.json',import.meta.url),'utf8'));
 test('public catalog has unique same-origin paths, titles and nonempty theme membership',()=>{
