@@ -1,0 +1,3 @@
+# The extensionless legacy file is served as text/plain. Force its canonical article route.
+/deancercone  /pages/deancercone  301!
+/deancercone/ /pages/deancercone  301!
