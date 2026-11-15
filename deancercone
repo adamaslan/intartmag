@@ -27,6 +27,8 @@
 </script>
  <link rel="stylesheet" href="dog.css">
     
+
+<script type="module" src="/article-listener-init.js"></script>
 </head>
 <body>
 <img src="IAM-logo.jpg" width="75% height="75% "  >
