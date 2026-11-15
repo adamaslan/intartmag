@@ -77,3 +77,8 @@ class SiteNavbar extends HTMLElement {
 }
 
 customElements.define('site-navbar', SiteNavbar);
+
+// Article pages share the free read-aloud player; homepage cards do not.
+if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
+  import('/article-listener-init.js');
+}
