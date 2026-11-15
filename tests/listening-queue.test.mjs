@@ -25,3 +25,17 @@ test('catalog paths resolve to local editorial HTML',async()=>{
 test('Netlify pretty-URL catalog paths use canonical lowercase spelling',()=>{
  for(const a of manifest.articles)assert.equal(a.path,a.path.toLowerCase(),a.path);
 });
+
+test('featured excerpt is excluded while the two full legacy wine articles remain',()=>{
+ const paths=new Set(manifest.articles.map(a=>a.path));
+ assert(!paths.has('/pages/tastythings'));
+ assert(paths.has('/pages/naturalwine'));assert(paths.has('/pages/3valuereds'));
+});
+
+test('legacy wine articles close navigation before full editorial prose',async()=>{
+ for(const name of ['naturalwine','3valuereds']){
+  const html=await readFile(new URL('../pages/'+name+'.html',import.meta.url),'utf8');
+  assert(html.includes('</div>\n<article data-listening-article>'));
+  assert(html.includes('</article>\n<p data-no-read><strong>Related on I.A.M.:</strong>'));
+ }
+});
