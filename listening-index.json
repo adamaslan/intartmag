@@ -289,7 +289,7 @@
     },
     {
       "path": "/pages/3valuereds",
-      "title": "3 Low-Cost, High-Value Red Wines",
+      "title": "3 Low Cost High Value Red Wines",
       "themes": [
         "Culture"
       ]
@@ -297,13 +297,6 @@
     {
       "path": "/pages/tequiladrinkingatbossanova",
       "title": "tequila at Bossa Nova Civic Club",
-      "themes": [
-        "Culture"
-      ]
-    },
-    {
-      "path": "/pages/tastythings",
-      "title": "Tasty Things",
       "themes": [
         "Culture"
       ]
