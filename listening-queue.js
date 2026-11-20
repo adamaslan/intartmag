@@ -25,6 +25,18 @@ export function articleText(doc, selector, title) {
   if (body.length < 25) throw new Error('Article text is empty or incomplete');
   return body.startsWith(title) ? body : title + '\n' + body;
 }
+export function categoryQueue(manifest, categoryId) {
+  const categories = manifest.categories || [];
+  const seen = new Set(), paths = new Set(manifest.articles.map(a => a.path));
+  for (const c of categories) {
+    if (!/^[a-z][a-z0-9-]*$/.test(c.id) || !c.label || seen.has(c.id) || !Array.isArray(c.article_paths) || !c.article_paths.length || new Set(c.article_paths).size !== c.article_paths.length || c.article_paths.some(p => !paths.has(p))) throw new Error('Invalid category index');
+    publicPath(c.source_path, 'https://example.test'); seen.add(c.id);
+  }
+  if (!categoryId) return manifest.articles;
+  const category = categories.find(c => c.id === categoryId);
+  if (!category) throw new Error('Unknown listening category');
+  return category.article_paths.map(path => manifest.articles.find(a => a.path === path));
+}
 async function main() {
   const $ = id => document.getElementById(id), status = $('status');
   let manifest;
@@ -33,6 +45,7 @@ async function main() {
     if (!response.ok) throw new Error('Index unavailable');
     manifest = await response.json();
     if (!Array.isArray(manifest.articles) || !manifest.articles.length) throw new Error('Empty index');
+    categoryQueue(manifest, '');
     const seen = new Set();
     for (const a of manifest.articles) {
       publicPath(a.path, location.origin);
@@ -62,7 +75,7 @@ async function main() {
     $('stop').disabled = ['idle','ready','finished'].includes(state);
     $('previous').disabled = !supported || index <= 0;
     $('next').disabled = !supported || index >= queue.length - 1;
-    $('position').textContent = `Article ${index + 1} of ${queue.length} · ${$('theme').value || 'All articles'} · catalog order`;
+    $('position').textContent = `Article ${index + 1} of ${queue.length} · ${(manifest.categories || []).find(c => c.id === $('category').value)?.label || $('theme').value || 'All articles'} · ${$('category').value ? 'category-page order' : 'catalog order'}`;
     remaining();
   }
   function cancel() {
@@ -133,7 +146,15 @@ async function main() {
   for (const theme of [...new Set(manifest.articles.flatMap(a => a.themes))].sort()) {
     const option = document.createElement('option'); option.value = theme; option.textContent = theme; $('theme').append(option);
   }
-  $('theme').onchange = () => { stop(); queue = manifest.articles.filter(a => !$('theme').value || a.themes.includes($('theme').value)); index = 0; render(); if (supported) load(); };
+  $('theme').onchange = () => { $('category').value = ''; const url = new URL(location.href); url.searchParams.delete('category'); history.replaceState(null, '', url); stop(); queue = manifest.articles.filter(a => !$('theme').value || a.themes.includes($('theme').value)); index = 0; render(); if (supported) load(); };
+  for (const c of manifest.categories || []) {
+    const option = document.createElement('option'); option.value = c.id; option.textContent = `${c.label} (${c.article_paths.length})`; $('category').append(option);
+    const link = document.createElement('a'); link.href = '/listen.html?category=' + encodeURIComponent(c.id); link.textContent = `Listen to ${c.label} (${c.article_paths.length})`; $('category-links').append(link, document.createTextNode(' '));
+  }
+  $('category').onchange = () => {
+    stop(); $('theme').value = ''; queue = categoryQueue(manifest, $('category').value); index = 0;
+    const url = new URL(location.href); if ($('category').value) url.searchParams.set('category', $('category').value); else url.searchParams.delete('category'); history.replaceState(null, '', url); render(); if (supported) load();
+  };
   $('play').onclick = playSelected;
   $('stop').onclick = () => stop();
   $('next').onclick = () => { if (index < queue.length - 1) { index++; load(); } };
@@ -152,6 +173,11 @@ async function main() {
   $('voice').onchange = () => { if (parts.length) blocked('Voice selected. Tap Retry voice to restart this article.'); };
   window.addEventListener('pagehide', () => { clearInterval(clock); stop('Stopped when you left this page. Press Play to begin again.'); });
   window.addEventListener('pageshow', event => { if (event.persisted) { clearInterval(clock); location.reload(); } });
+  const requestedCategory = new URL(location.href).searchParams.get('category');
+  if (requestedCategory) {
+    try { queue = categoryQueue(manifest, requestedCategory); $('category').value = requestedCategory; }
+    catch { render(); status.textContent = 'This category is not available. Choose a listed category to continue.'; $('play').disabled = true; return; }
+  }
   render();
   if (!supported) { $('speed').disabled = true; $('voice').disabled = true; status.textContent = 'Speech is not available in this browser. You can still open and read the articles below.'; }
   else load(); // Prepare first article, never auto-start the first voice after an async fetch.
