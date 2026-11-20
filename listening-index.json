@@ -1,0 +1,394 @@
+{
+  "site": "International Art Magazine",
+  "dark": false,
+  "selector": "body",
+  "articles": [
+    {
+      "path": "/pages/10-galleries-in-chinatown",
+      "title": "10 Galleries in Chinatown",
+      "themes": [
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/ten-galleries-in-tribeca-2025",
+      "title": "Ten Galleries in Tribeca to Visit in 2025",
+      "themes": [
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/barbara-ess-at-magenta-plains",
+      "title": "Barbara Ess at Magenta Plains",
+      "themes": [
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/backstory-universe-by-kipnz-at-diana",
+      "title": "Worlds Collide at Backstory Universe by KIPNZ at Diana",
+      "themes": [
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/japanesebermutto",
+      "title": "Aesthetics Meets Taste: Japanese Bermutto",
+      "themes": [
+        "Culture"
+      ]
+    },
+    {
+      "path": "/pages/miami-art-week-2023",
+      "title": "Miami Art Week 2023 Preview",
+      "themes": [
+        "Art fairs"
+      ]
+    },
+    {
+      "path": "/pages/art-at-the-basilica-cistern-istanbul",
+      "title": "Ancient and Contemporary Art Coalesce at the Basilica Cistern in Istanbul",
+      "themes": [
+        "International",
+        "Museums"
+      ]
+    },
+    {
+      "path": "/pages/jennysgallerynyc",
+      "title": "Oscillator: Pentti Monkkonen Incorporates Sound in Art at Jenny's",
+      "themes": [
+        "Artists",
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/laurenshapiroandbeatrizchachamovitsatthejewishmuseum",
+      "title": "Fragility in Miami: Lauren Shapiro and Beatriz Chachamovits at the Jewish Museum in South Beach",
+      "themes": [
+        "Museums"
+      ]
+    },
+    {
+      "path": "/pages/bushwick",
+      "title": "Bushwick: Where does it rank in terms of centers for Art in NYC?",
+      "themes": [
+        "Art fairs",
+        "Artists",
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/goodtoknowfyiatartbasel",
+      "title": "Getting to know Good to Know.FYI - Part 1 \"PLEASURETOWN\"",
+      "themes": [
+        "Art fairs"
+      ]
+    },
+    {
+      "path": "/pages/artweekla",
+      "title": "LA Art Week 2022",
+      "themes": [
+        "Art fairs"
+      ]
+    },
+    {
+      "path": "/pages/portiazvavahera",
+      "title": "Portia Zvavahera at David Zwirner",
+      "themes": [
+        "Artists",
+        "International"
+      ]
+    },
+    {
+      "path": "/pages/irja-boden-fractured-light",
+      "title": "Irja Boden's All Fired Up: Fractured Light at Amos Eno Gallery",
+      "themes": [
+        "Artists",
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/somadpresentsfogo",
+      "title": "Show Review: Fogo! Group Exhibition at SoMad",
+      "themes": [
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/paradicepalase-jovanniluna",
+      "title": "“The Process of Jovanni Luna at Paradice Palase”",
+      "themes": [
+        "Artists"
+      ]
+    },
+    {
+      "path": "/pages/microscopegalleryatarmoryshow",
+      "title": "Microscope Gallery Showing 4-Channel Video \"Border Control\" at the Armory Show",
+      "themes": [
+        "Art fairs"
+      ]
+    },
+    {
+      "path": "/pages/deancercone",
+      "title": "Dean Cercone at Galerie Manque",
+      "themes": [
+        "Artists"
+      ]
+    },
+    {
+      "path": "/pages/jaymidler",
+      "title": "Jay Milder's \"Unblotting the Rainbow\" Shines in Provincetown",
+      "themes": [
+        "Art & culture"
+      ]
+    },
+    {
+      "path": "/pages/sarahszeandnewmoma",
+      "title": "Thoughts on Sarah Sze and the New MoMA",
+      "themes": [
+        "Museums"
+      ]
+    },
+    {
+      "path": "/pages/carlitodalceggio-interview",
+      "title": "Carlito Dalceggio Interview",
+      "themes": [
+        "Artists"
+      ]
+    },
+    {
+      "path": "/pages/nycxdesign-hurrah",
+      "title": "Interactive Artwork \"Hurrah!\" Takes On NYCxDESIGN",
+      "themes": [
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/aurorahalal-nitemind-moma",
+      "title": "Stranger Vibes: Aurora Halal & Sam Rolfes, PopRally at MoMA",
+      "themes": [
+        "Culture",
+        "Museums",
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/lic",
+      "title": "Tonight in Long Island City",
+      "themes": [
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/decolonizeart",
+      "title": "Art Press Challenging Colonialism, White Supremacy and Patriarchy",
+      "themes": [
+        "International"
+      ]
+    },
+    {
+      "path": "/pages/fridayinbushwick",
+      "title": "Happening in Bushwick",
+      "themes": [
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/text",
+      "title": "When Does Supplemental Text Become Too Much? (SPRING/BREAK, Armory Week)",
+      "themes": [
+        "Art fairs"
+      ]
+    },
+    {
+      "path": "/pages/theborder",
+      "title": "The BORDER: A New Project Space for Immigrant Art",
+      "themes": [
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/byronkim",
+      "title": "Byron Kim’s Sunday Paintings at James Cohan",
+      "themes": [
+        "Artists",
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/novacancy3",
+      "title": "No Vacancy III: The Power of Art in Brooklyn Culture",
+      "themes": [
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/sheinspires",
+      "title": "She Inspires",
+      "themes": [
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/jorgeandrewgallery",
+      "title": "New Gallery in BK: Jorge Andrew Gallery",
+      "themes": [
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/inthebight",
+      "title": "The Bight at Honey Ramka",
+      "themes": [
+        "Museums",
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/continuities",
+      "title": "Julie Speidel, “Continuities” at Winston Wächter",
+      "themes": [
+        "Artists",
+        "NYC"
+      ]
+    },
+    {
+      "path": "/pages/art",
+      "title": "Art Basel 2016",
+      "themes": [
+        "Artists"
+      ]
+    },
+    {
+      "path": "/pages/taradelagarza",
+      "title": "Tara De La Garza Interview",
+      "themes": [
+        "Artists"
+      ]
+    },
+    {
+      "path": "/pages/artresidencies",
+      "title": "Art Residencies",
+      "themes": [
+        "International"
+      ]
+    },
+    {
+      "path": "/pages/willtopower",
+      "title": "A Retort to Nietzsche’s “Will to Power”",
+      "themes": [
+        "International"
+      ]
+    },
+    {
+      "path": "/pages/naturalwine",
+      "title": "The Awkward Quest for a Funky Natural Red Wine",
+      "themes": [
+        "Culture"
+      ]
+    },
+    {
+      "path": "/pages/3valuereds",
+      "title": "3 Low Cost High Value Red Wines",
+      "themes": [
+        "Culture"
+      ]
+    },
+    {
+      "path": "/pages/tequiladrinkingatbossanova",
+      "title": "tequila at Bossa Nova Civic Club",
+      "themes": [
+        "Culture"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "art-fairs",
+      "label": "Art Fairs",
+      "source_path": "/pages/art-fairs.html",
+      "article_paths": [
+        "/pages/miami-art-week-2023",
+        "/pages/goodtoknowfyiatartbasel",
+        "/pages/artweekla",
+        "/pages/microscopegalleryatarmoryshow",
+        "/pages/text"
+      ]
+    },
+    {
+      "id": "museums",
+      "label": "Museums",
+      "source_path": "/pages/museums.html",
+      "article_paths": [
+        "/pages/sarahszeandnewmoma",
+        "/pages/aurorahalal-nitemind-moma",
+        "/pages/laurenshapiroandbeatrizchachamovitsatthejewishmuseum",
+        "/pages/art-at-the-basilica-cistern-istanbul"
+      ]
+    },
+    {
+      "id": "nyc",
+      "label": "NYC",
+      "source_path": "/pages/nyc.html",
+      "article_paths": [
+        "/pages/10-galleries-in-chinatown",
+        "/pages/ten-galleries-in-tribeca-2025",
+        "/pages/bushwick",
+        "/pages/lic",
+        "/pages/fridayinbushwick",
+        "/pages/novacancy3",
+        "/pages/theborder",
+        "/pages/inthebight",
+        "/pages/jorgeandrewgallery",
+        "/pages/nycxdesign-hurrah",
+        "/pages/jennysgallerynyc",
+        "/pages/backstory-universe-by-kipnz-at-diana",
+        "/pages/barbara-ess-at-magenta-plains",
+        "/pages/sheinspires",
+        "/pages/somadpresentsfogo",
+        "/pages/irja-boden-fractured-light",
+        "/pages/continuities",
+        "/pages/byronkim"
+      ]
+    },
+    {
+      "id": "artists",
+      "label": "Artists",
+      "source_path": "/pages/artists.html",
+      "article_paths": [
+        "/pages/deancercone",
+        "/pages/carlitodalceggio-interview",
+        "/pages/paradicepalase-jovanniluna",
+        "/pages/art",
+        "/pages/byronkim",
+        "/pages/portiazvavahera",
+        "/pages/taradelagarza",
+        "/pages/jennysgallerynyc",
+        "/pages/irja-boden-fractured-light",
+        "/pages/continuities"
+      ]
+    },
+    {
+      "id": "international",
+      "label": "International",
+      "source_path": "/pages/international.html",
+      "article_paths": [
+        "/pages/art-at-the-basilica-cistern-istanbul",
+        "/pages/portiazvavahera",
+        "/pages/artresidencies",
+        "/pages/decolonizeart",
+        "/pages/willtopower"
+      ]
+    },
+    {
+      "id": "culture",
+      "label": "Culture",
+      "source_path": "/pages/culture.html",
+      "article_paths": [
+        "/pages/naturalwine",
+        "/pages/japanesebermutto",
+        "/pages/3valuereds"
+      ]
+    }
+  ]
+}

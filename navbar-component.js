@@ -13,6 +13,7 @@ template.innerHTML = `
     </button>
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="/listen.html">Listen</a></li>
         <li class="nav-item">
           <a class="nav-link" href="/">Home</a>
         </li>
@@ -77,3 +78,8 @@ class SiteNavbar extends HTMLElement {
 }
 
 customElements.define('site-navbar', SiteNavbar);
+
+// Article pages share the free read-aloud player; homepage cards do not.
+if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
+  import('/article-listener-init.js');
+}
