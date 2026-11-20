@@ -301,5 +301,94 @@
         "Culture"
       ]
     }
+  ],
+  "categories": [
+    {
+      "id": "art-fairs",
+      "label": "Art Fairs",
+      "source_path": "/pages/art-fairs.html",
+      "article_paths": [
+        "/pages/miami-art-week-2023",
+        "/pages/goodtoknowfyiatartbasel",
+        "/pages/artweekla",
+        "/pages/microscopegalleryatarmoryshow",
+        "/pages/text"
+      ]
+    },
+    {
+      "id": "museums",
+      "label": "Museums",
+      "source_path": "/pages/museums.html",
+      "article_paths": [
+        "/pages/sarahszeandnewmoma",
+        "/pages/aurorahalal-nitemind-moma",
+        "/pages/laurenshapiroandbeatrizchachamovitsatthejewishmuseum",
+        "/pages/art-at-the-basilica-cistern-istanbul"
+      ]
+    },
+    {
+      "id": "nyc",
+      "label": "NYC",
+      "source_path": "/pages/nyc.html",
+      "article_paths": [
+        "/pages/10-galleries-in-chinatown",
+        "/pages/ten-galleries-in-tribeca-2025",
+        "/pages/bushwick",
+        "/pages/lic",
+        "/pages/fridayinbushwick",
+        "/pages/novacancy3",
+        "/pages/theborder",
+        "/pages/inthebight",
+        "/pages/jorgeandrewgallery",
+        "/pages/nycxdesign-hurrah",
+        "/pages/jennysgallerynyc",
+        "/pages/backstory-universe-by-kipnz-at-diana",
+        "/pages/barbara-ess-at-magenta-plains",
+        "/pages/sheinspires",
+        "/pages/somadpresentsfogo",
+        "/pages/irja-boden-fractured-light",
+        "/pages/continuities",
+        "/pages/byronkim"
+      ]
+    },
+    {
+      "id": "artists",
+      "label": "Artists",
+      "source_path": "/pages/artists.html",
+      "article_paths": [
+        "/pages/deancercone",
+        "/pages/carlitodalceggio-interview",
+        "/pages/paradicepalase-jovanniluna",
+        "/pages/art",
+        "/pages/byronkim",
+        "/pages/portiazvavahera",
+        "/pages/taradelagarza",
+        "/pages/jennysgallerynyc",
+        "/pages/irja-boden-fractured-light",
+        "/pages/continuities"
+      ]
+    },
+    {
+      "id": "international",
+      "label": "International",
+      "source_path": "/pages/international.html",
+      "article_paths": [
+        "/pages/art-at-the-basilica-cistern-istanbul",
+        "/pages/portiazvavahera",
+        "/pages/artresidencies",
+        "/pages/decolonizeart",
+        "/pages/willtopower"
+      ]
+    },
+    {
+      "id": "culture",
+      "label": "Culture",
+      "source_path": "/pages/culture.html",
+      "article_paths": [
+        "/pages/naturalwine",
+        "/pages/japanesebermutto",
+        "/pages/3valuereds"
+      ]
+    }
   ]
 }
